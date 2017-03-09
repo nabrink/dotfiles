@@ -32,6 +32,7 @@ brew install homebrew/dupes/screen
 # Install other useful binaries.
 brew install npm
 brew install python3
+brew install mono
 brew install git
 brew install go
 brew install docker
@@ -41,6 +42,8 @@ brew cask install java
 brew cask install iterm2-beta
 brew cask install google-chrome
 brew cask install atom
+brew cask install unity
+brew cask install lastpass
 # Atom plug-ins
 apm install editorconfig
 

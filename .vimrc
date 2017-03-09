@@ -8,9 +8,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'valloric/youcompleteme'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-"Plugin 'omnisharp/omnisharp-vim'
+Plugin 'omnisharp/omnisharp-vim'
 Plugin 'scrooloose/syntastic'
-"Plugin 'tpope/vim-dispatch'
+Plugin 'tpope/vim-dispatch'
 Plugin 'fatih/vim-go'
 
 call vundle#end()
