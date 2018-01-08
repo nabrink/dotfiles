@@ -8,7 +8,7 @@ echo "$(whoami)            ALL = (ALL) NOPASSWD: ALL" | sudo tee "/etc/sudoers.d
 # Install applications
 ./brew.sh
 ./zsh.sh
-./macos.sh nabrink 
+# ./macos.sh nabrink 
 
 # Symlink dot-files
 for file in .*; do
@@ -23,4 +23,3 @@ echo "Load default color schema in iTerm2"
 echo "Configure atom"
 
 echo "Reboot :)"
-

@@ -30,11 +30,7 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install other useful binaries.
-brew install npm
-brew install python3
-brew install mono
 brew install git
-brew install go
 brew install docker
 brew cask install virtualbox
 brew cask install slack
@@ -42,23 +38,14 @@ brew cask install java
 brew cask install iterm2-beta
 brew cask install google-chrome
 brew cask install atom
-brew cask install unity
 brew cask install lastpass
-# Atom plug-ins
-apm install editorconfig
 
 brew cask install tmux
-brew cask install flux
 brew cask install dropbox
 brew cask install spotify
 brew cask install skype
 
 brew install awscli
-brew install sbt
-brew cask install ngrok
-brew install jq
-brew cask install postman
-brew cask install tunnelblick
 
 # Remove outdated versions from the cellar.
 brew cleanup

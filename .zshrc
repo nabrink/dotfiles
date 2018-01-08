@@ -5,6 +5,8 @@ autoload -U compinit && compinit
 # Fish-like syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+export PATH="/$HOME/anaconda3/bin:$PATH"
+
 for file in ~/.{paths,prompt,exports,aliases,functions,extra,auths}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done
@@ -75,3 +77,9 @@ setopt EXTENDED_HISTORY
 setopt HIST_SAVE_NO_DUPS
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_FIND_NO_DUPS
+
+alias minime='minikube start; eval $(minikube docker-env); kubectl config use-context minikube;'
+alias uploadimg='~/work/tools/aws_upload.sh'
+alias envgvf='source activate forecast_booking_volume'
+alias envdatasync='source activate sloop_data'
+alias syncdata='~/work/tools/sync_data.sh'
